@@ -56,6 +56,8 @@
 - (id)initWithFrame:(CGRect)frame coachMarks:(NSArray *)marks;
 - (void)start;
 
+- (void)userDidTap:(UITapGestureRecognizer *)recognizer;
+
 @end
 
 @protocol WSCoachMarksViewDelegate <NSObject>
