@@ -56,7 +56,9 @@
 - (id)initWithFrame:(CGRect)frame coachMarks:(NSArray *)marks;
 - (void)start;
 
+//add this method for access from outSide
 - (void)userDidTap:(UITapGestureRecognizer *)recognizer;
+
 
 @end
 
